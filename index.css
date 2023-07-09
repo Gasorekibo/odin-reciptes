@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
 body {
   background-color: #faf0d7;
   display: flex;
@@ -14,6 +21,14 @@ body {
   padding: 0.2rem;
   margin: 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card p {
+  padding: 4px;
+  margin: 0;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  line-height: 22px;
 }
 img {
   width: 400px;
@@ -40,4 +55,34 @@ a {
     background-color: #fff;
     color: #000;
   }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 7px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
